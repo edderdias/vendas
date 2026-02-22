@@ -8,9 +8,11 @@ import { ButtonContainer } from './button.style';
 interface ButtonProps extends TouchableOpacityProps {
   title: string;
   margin?: string;
+  type?: string;
 }
 
 const Button = ({ title, margin, ...props }: ButtonProps) => {
+  // const typesButt
   return (
     <ButtonContainer margin={margin} {...props}>
       <Text type={textTypes.BUTTON_BOLD} color={theme.colors.neutralTheme.white}>
