@@ -16,7 +16,7 @@ const Login = () => {
         <Text>Primeiro App</Text>
         <Input />
         <Button
-          type={theme.buttons.buttonsTheme.secondary}
+          type={theme.buttons.buttonsTheme.primary}
           margin="16px"
           title="Entrar"
           onPress={handleOnPress}
