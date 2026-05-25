@@ -1,6 +1,7 @@
 import { View } from 'react-native';
 
 import Button from '../../../shared/components/button/Button';
+import { Icon } from '../../../shared/components/icon/icon';
 import Input from '../../../shared/components/input/input';
 import Text from '../../../shared/components/text/text';
 import { theme } from '../../../shared/themes/theme';
@@ -13,6 +14,7 @@ const Login = () => {
   return (
     <View>
       <ContainerLogin>
+        <Icon name="home3" />
         <Text>Primeiro App</Text>
         <Input
           errorMessage="Usuário ou senha inválidos"
